@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apollo-theme/apollo-vscode-theme.git"
+    "url": "https://github.com/lufutu/apollo-vscode-theme.git"
   },
   "keywords": [
     "theme",
@@ -193,8 +193,8 @@
       "description": "Downloads"
     },
     {
-      "url": "https://img.shields.io/github/license/apollo-theme/apollo-vscode-theme.svg",
-      "href": "https://github.com/apollo-theme/apollo-vscode-theme/blob/main/LICENSE",
+      "url": "https://img.shields.io/github/license/lufutu/apollo-vscode-theme.svg",
+      "href": "https://github.com/lufutu/apollo-vscode-theme/blob/main/LICENSE",
       "description": "License"
     }
   ],

@@ -27,7 +27,7 @@ code --install-extension apollo-theme.apollo-theme
 
 ### Manual Installation
 
-1. Download the `.vsix` file from [releases](https://github.com/apollo-theme/apollo-vscode-theme/releases)
+1. Download the `.vsix` file from [releases](https://github.com/lufutu/apollo-vscode-theme/releases)
 2. Open VS Code
 3. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS)
 4. Type "Extensions: Install from VSIX"
@@ -238,7 +238,7 @@ We welcome contributions! Here's how you can help:
 
 ```bash
 # Clone the repository
-git clone https://github.com/apollo-theme/apollo-vscode-theme.git
+git clone https://github.com/lufutu/apollo-vscode-theme.git
 cd apollo-vscode-theme/apollo-theme
 
 # Install dependencies
@@ -303,10 +303,9 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Support
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/apollo-theme/apollo-vscode-theme/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/apollo-theme/apollo-vscode-theme/discussions)
-- 📧 **Email**: support@apollo-theme.dev
-- 🌟 **Rate**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=apollo-theme.apollo-theme)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/lufutu/apollo-vscode-theme/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/lufutu/apollo-vscode-theme/discussions)
+- 🌟 **Rate**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=lufutu.apollo-theme)
 
 ---
 
@@ -316,11 +315,9 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ### Quick Links
 
-- [🏠 Homepage](https://apollo-theme.dev)
-- [📦 VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=apollo-theme.apollo-theme)
-- [🐙 GitHub Repository](https://github.com/apollo-theme/apollo-vscode-theme)
-- [📖 Documentation](https://docs.apollo-theme.dev)
-- [🎨 Color Palette Reference](https://colors.apollo-theme.dev)
+- [📦 VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=lufutu.apollo-theme)
+- [🐙 GitHub Repository](https://github.com/lufutu/apollo-vscode-theme)
+- [🎨 Color Palette Reference](https://github.com/lufutu/apollo-vscode-theme/blob/main/src/colors.ts)
 
 ### Community
 

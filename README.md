@@ -2,7 +2,7 @@
 
 A retro pixel art color theme that brings the nostalgic Apollo color palette to your VS Code editor. Experience a visually appealing coding environment with carefully selected colors that reduce eye strain while maintaining excellent readability and code distinction.
 
-![Apollo Theme Preview](https://raw.githubusercontent.com/apollo-theme/apollo-vscode-theme/main/assets/preview-dark.png)
+![Apollo Theme Preview](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-dark.svg)
 
 ## Features
 
@@ -25,7 +25,7 @@ A retro pixel art color theme that brings the nostalgic Apollo color palette to 
 
 ### Manual Installation
 
-1. Download the latest `.vsix` file from [Releases](https://github.com/apollo-theme/apollo-vscode-theme/releases)
+1. Download the latest `.vsix` file from [Releases](https://github.com/lufutu/apollo-vscode-theme/releases)
 2. Open VS Code
 3. Press `Ctrl+Shift+P` / `Cmd+Shift+P` to open Command Palette
 4. Type "Extensions: Install from VSIX"
@@ -36,7 +36,7 @@ A retro pixel art color theme that brings the nostalgic Apollo color palette to 
 ### From Source
 
 ```bash
-git clone https://github.com/apollo-theme/apollo-vscode-theme.git
+git clone https://github.com/lufutu/apollo-vscode-theme.git
 cd apollo-vscode-theme/apollo-theme
 npm install -g @vscode/vsce
 vsce package
@@ -48,12 +48,12 @@ code --install-extension apollo-theme-1.0.0.vsix
 ### Apollo Dark
 Perfect for low-light environments and extended coding sessions. Features dark backgrounds with bright, vibrant syntax highlighting.
 
-![Apollo Dark Theme](https://raw.githubusercontent.com/apollo-theme/apollo-vscode-theme/main/assets/preview-dark.png)
+![Apollo Dark Theme](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-dark.svg)
 
 ### Apollo Light  
 Ideal for well-lit environments and daytime coding. Uses light backgrounds with carefully adjusted contrast for optimal readability.
 
-![Apollo Light Theme](https://raw.githubusercontent.com/apollo-theme/apollo-vscode-theme/main/assets/preview-light.png)
+![Apollo Light Theme](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-light.svg)
 
 ## Color Palette
 
@@ -127,16 +127,16 @@ You can customize the theme by adding overrides to your VS Code settings:
 ## Screenshots
 
 ### JavaScript/TypeScript
-![JavaScript Example](https://raw.githubusercontent.com/apollo-theme/apollo-vscode-theme/main/assets/screenshot-js.png)
+![JavaScript Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-js.svg)
 
 ### HTML/CSS
-![HTML/CSS Example](https://raw.githubusercontent.com/apollo-theme/apollo-vscode-theme/main/assets/screenshot-html.png)
+![HTML/CSS Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-html.svg)
 
 ### JSON
-![JSON Example](https://raw.githubusercontent.com/apollo-theme/apollo-vscode-theme/main/assets/screenshot-json.png)
+![JSON Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-json.svg)
 
 ### Markdown
-![Markdown Example](https://raw.githubusercontent.com/apollo-theme/apollo-vscode-theme/main/assets/screenshot-md.png)
+![Markdown Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-md.svg)
 
 ## Contributing
 
@@ -174,20 +174,17 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Credits
 
 - **Apollo Color Palette**: Inspired by classic pixel art aesthetics
-- **Theme Development**: Apollo Theme Team
+- **Theme Development**: lufutu
 - **Community**: Thanks to all contributors and users providing feedback
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/apollo-theme/apollo-vscode-theme/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/apollo-theme/apollo-vscode-theme/discussions)
-- **Email**: support@apollo-theme.dev
+- **Issues**: [GitHub Issues](https://github.com/lufutu/apollo-vscode-theme/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/lufutu/apollo-vscode-theme/discussions)
 
 ## Related
 
-- [Apollo Theme for Sublime Text](https://github.com/apollo-theme/apollo-sublime-theme)
-- [Apollo Theme for Atom](https://github.com/apollo-theme/apollo-atom-theme)
-- [Apollo Color Palette](https://github.com/apollo-theme/apollo-colors)
+- [Apollo Color Palette Documentation](https://github.com/lufutu/apollo-vscode-theme/blob/main/src/colors.ts)
 
 ---
 

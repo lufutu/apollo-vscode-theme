@@ -828,7 +828,7 @@ A **retro pixel art** color theme for VS Code that brings nostalgic aesthetics t
 
 \`\`\`bash
 # Clone the repository
-git clone https://github.com/apollo-theme/apollo-vscode-theme.git
+git clone https://github.com/lufutu/apollo-vscode-theme.git
 
 # Install dependencies
 cd apollo-vscode-theme
