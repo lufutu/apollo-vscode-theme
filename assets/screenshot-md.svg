@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#090a14"/>
+  
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="60" fill="#151d28"/>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="250" height="540" fill="#10141f"/>
+  
+  <!-- Main editor area -->
+  <rect x="250" y="60" width="550" height="480" fill="#090a14"/>
+  
+  <!-- Status bar -->
+  <rect x="0" y="540" width="800" height="60" fill="#151d28"/>
+  
+  <!-- Title -->
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        text-anchor="middle" fill="#73bed3">Markdown Formatting</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" 
+        text-anchor="middle" fill="#ebede9">Beautiful documentation styling</text>
+  
+  <!-- Code preview simulation -->
+  <g transform="translate(300, 320)">
+    <!-- Line numbers -->
+    <text x="0" y="20" font-family="monospace" font-size="14" fill="#577277">1</text>
+    <text x="0" y="40" font-family="monospace" font-size="14" fill="#577277">2</text>
+    <text x="0" y="60" font-family="monospace" font-size="14" fill="#577277">3</text>
+    <text x="0" y="80" font-family="monospace" font-size="14" fill="#577277">4</text>
+    <text x="0" y="100" font-family="monospace" font-size="14" fill="#577277">5</text>
+    
+    <!-- Code lines -->
+    <text x="30" y="20" font-family="monospace" font-size="14" fill="#4f8fba">const</text>
+    <text x="80" y="20" font-family="monospace" font-size="14" fill="#a4dddb">apolloTheme</text>
+    <text x="180" y="20" font-family="monospace" font-size="14" fill="#a8b5b2">=</text>
+    <text x="200" y="20" font-family="monospace" font-size="14" fill="#a8ca58">"Apollo Dark"</text>
+    
+    <text x="30" y="40" font-family="monospace" font-size="14" fill="#4f8fba">function</text>
+    <text x="110" y="40" font-family="monospace" font-size="14" fill="#e8c170">applyTheme</text>
+    <text x="200" y="40" font-family="monospace" font-size="14" fill="#a8b5b2">()</text>
+    <text x="220" y="40" font-family="monospace" font-size="14" fill="#a8b5b2">{</text>
+    
+    <text x="50" y="60" font-family="monospace" font-size="14" fill="#577277">// Apply Apollo colors</text>
+    
+    <text x="50" y="80" font-family="monospace" font-size="14" fill="#4f8fba">return</text>
+    <text x="110" y="80" font-family="monospace" font-size="14" fill="#df84a5">true</text>
+    
+    <text x="30" y="100" font-family="monospace" font-size="14" fill="#a8b5b2">}</text>
+  </g>
+  
+  <!-- Apollo logo placeholder -->
+  <circle cx="125" cy="200" r="40" fill="#73bed3" opacity="0.3"/>
+  <text x="125" y="210" font-family="Arial, sans-serif" font-size="36" font-weight="bold" 
+        text-anchor="middle" fill="#73bed3">A</text>
+  
+  <!-- Feature highlights -->
+  <g transform="translate(300, 500)">
+    <circle cx="0" cy="0" r="5" fill="#a8ca58"/>
+    <text x="15" y="5" font-family="Arial, sans-serif" font-size="16" fill="#ebede9">48 Apollo Colors</text>
+    
+    <circle cx="0" cy="30" r="5" fill="#a8ca58"/>
+    <text x="15" y="35" font-family="Arial, sans-serif" font-size="16" fill="#ebede9">Dual Theme Support</text>
+    
+    <circle cx="0" cy="60" r="5" fill="#a8ca58"/>
+    <text x="15" y="65" font-family="Arial, sans-serif" font-size="16" fill="#ebede9">Retro Pixel Art Aesthetic</text>
+    
+    <circle cx="0" cy="90" r="5" fill="#a8ca58"/>
+    <text x="15" y="95" font-family="Arial, sans-serif" font-size="16" fill="#ebede9">WCAG AA Compliant</text>
+  </g>
+  
+  <!-- Watermark -->
+  <text x="780" y="580" font-family="Arial, sans-serif" font-size="12" 
+        text-anchor="end" fill="#577277" opacity="0.7">
+    Apollo Theme Preview - Replace with actual screenshot
+  </text>
+</svg>

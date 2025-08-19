@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with dark Apollo blue -->
+  <circle cx="64" cy="64" r="60" fill="#172038" stroke="#253a5e" stroke-width="4"/>
+  
+  <!-- Inner circle with bright teal accent -->
+  <circle cx="64" cy="64" r="45" fill="#253a5e" stroke="#73bed3" stroke-width="2"/>
+  
+  <!-- Apollo "A" letter design using geometric shapes -->
+  <!-- Left side of A -->
+  <rect x="45" y="35" width="8" height="35" fill="#73bed3" rx="2"/>
+  <rect x="45" y="70" width="8" height="15" fill="#a8ca58" rx="2"/>
+  
+  <!-- Right side of A -->
+  <rect x="75" y="35" width="8" height="35" fill="#73bed3" rx="2"/>
+  <rect x="75" y="70" width="8" height="15" fill="#a8ca58" rx="2"/>
+  
+  <!-- Top horizontal bar of A -->
+  <rect x="53" y="35" width="22" height="8" fill="#e8c170" rx="2"/>
+  
+  <!-- Middle horizontal bar of A -->
+  <rect x="53" y="55" width="22" height="6" fill="#de9e41" rx="1"/>
+  
+  <!-- Decorative pixel art elements -->
+  <!-- Top left accent -->
+  <rect x="25" y="25" width="6" height="6" fill="#a8ca58" rx="1"/>
+  <rect x="33" y="33" width="4" height="4" fill="#75a743" rx="1"/>
+  
+  <!-- Top right accent -->
+  <rect x="97" y="25" width="6" height="6" fill="#c65197" rx="1"/>
+  <rect x="91" y="33" width="4" height="4" fill="#df84a5" rx="1"/>
+  
+  <!-- Bottom left accent -->
+  <rect x="25" y="97" width="6" height="6" fill="#de9e41" rx="1"/>
+  <rect x="33" y="89" width="4" height="4" fill="#e8c170" rx="1"/>
+  
+  <!-- Bottom right accent -->
+  <rect x="97" y="97" width="6" height="6" fill="#d0da91" rx="1"/>
+  <rect x="91" y="89" width="4" height="4" fill="#a8ca58" rx="1"/>
+  
+  <!-- Central decorative elements -->
+  <circle cx="64" cy="95" r="3" fill="#73bed3"/>
+  <circle cx="55" cy="90" r="2" fill="#a4dddb"/>
+  <circle cx="73" cy="90" r="2" fill="#a4dddb"/>
+  
+  <!-- Subtle highlight on the A -->
+  <rect x="47" y="37" width="4" height="30" fill="#a4dddb" opacity="0.6" rx="1"/>
+  <rect x="77" y="37" width="4" height="30" fill="#a4dddb" opacity="0.6" rx="1"/>
+</svg>

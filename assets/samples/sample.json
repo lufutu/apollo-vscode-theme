@@ -1,0 +1,260 @@
+{
+  "name": "apollo-theme-demo",
+  "version": "1.0.0",
+  "description": "Apollo Theme configuration and color palette showcase",
+  "author": {
+    "name": "Apollo Theme Team",
+    "email": "team@apollo-theme.dev",
+    "url": "https://apollo-theme.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apollo-theme/apollo-vscode-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "apollo",
+    "retro",
+    "pixel-art",
+    "vscode",
+    "syntax-highlighting"
+  ],
+  "engines": {
+    "vscode": "^1.74.0",
+    "node": ">=16.0.0"
+  },
+  "categories": ["Themes"],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Apollo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/apollo-dark-color-theme.json"
+      },
+      {
+        "label": "Apollo Light",
+        "uiTheme": "vs",
+        "path": "./themes/apollo-light-color-theme.json"
+      }
+    ]
+  },
+  "apolloConfig": {
+    "palette": {
+      "blues": {
+        "darkest": "#172038",
+        "dark": "#253a5e",
+        "medium": "#3c5e8b",
+        "light": "#4f8fba",
+        "bright": "#73bed3",
+        "lightest": "#a4dddb"
+      },
+      "greens": {
+        "darkest": "#19332d",
+        "dark": "#25562e",
+        "medium": "#468232",
+        "bright": "#75a743",
+        "light": "#a8ca58",
+        "lightest": "#d0da91"
+      },
+      "browns": {
+        "darkest": "#4d2b32",
+        "dark": "#7a4841",
+        "medium": "#ad7757",
+        "light": "#c09473",
+        "lighter": "#d7b594",
+        "lightest": "#e7d5b3"
+      },
+      "warm": {
+        "darkest": "#341c27",
+        "dark": "#602c2c",
+        "medium": "#884b2b",
+        "bright": "#be772b",
+        "light": "#de9e41",
+        "lightest": "#e8c170"
+      },
+      "purples": {
+        "darkest": "#241527",
+        "dark": "#411d31",
+        "medium": "#752438",
+        "bright": "#a53030",
+        "light": "#cf573c",
+        "lightest": "#da863e"
+      },
+      "deepPurples": {
+        "darkest": "#1e1d39",
+        "dark": "#402751",
+        "medium": "#7a367b",
+        "bright": "#a23e8c",
+        "light": "#c65197",
+        "lightest": "#df84a5"
+      },
+      "grayscale": {
+        "black": "#090a14",
+        "darkest": "#10141f",
+        "darker": "#151d28",
+        "dark": "#202e37",
+        "mediumDark": "#394a50",
+        "medium": "#577277",
+        "lightMedium": "#819796",
+        "light": "#a8b5b2",
+        "lighter": "#c7cfcc",
+        "white": "#ebede9"
+      }
+    },
+    "themeMapping": {
+      "dark": {
+        "background": {
+          "primary": "#090a14",
+          "secondary": "#10141f",
+          "tertiary": "#151d28"
+        },
+        "text": {
+          "primary": "#ebede9",
+          "secondary": "#c7cfcc",
+          "muted": "#819796"
+        },
+        "syntax": {
+          "keyword": "#4f8fba",
+          "string": "#a8ca58",
+          "comment": "#577277",
+          "variable": "#a4dddb",
+          "function": "#e8c170",
+          "class": "#da863e",
+          "number": "#c65197",
+          "operator": "#a8b5b2",
+          "boolean": "#df84a5",
+          "constant": "#de9e41"
+        }
+      },
+      "light": {
+        "background": {
+          "primary": "#ebede9",
+          "secondary": "#c7cfcc",
+          "tertiary": "#a8b5b2"
+        },
+        "text": {
+          "primary": "#090a14",
+          "secondary": "#151d28",
+          "muted": "#394a50"
+        },
+        "syntax": {
+          "keyword": "#3c5e8b",
+          "string": "#468232",
+          "comment": "#394a50",
+          "variable": "#253a5e",
+          "function": "#884b2b",
+          "class": "#752438",
+          "number": "#7a367b",
+          "operator": "#202e37",
+          "boolean": "#a23e8c",
+          "constant": "#be772b"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "test": "node run-tests.js",
+    "test:suite": "node test-suite.js",
+    "test:contrast": "node test-contrast-analysis.js",
+    "test:validation": "node test-semantic-validation.js && node test-light-validation.js",
+    "test:installation": "node test-installation-activation.js",
+    "test:integration": "node test-vscode-integration.js",
+    "test:manual": "node test-manual-installation.js",
+    "test:all": "npm run test",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js",
+    "build": "npm run test:all && npm run package",
+    "dev": "npm run test:suite",
+    "clean": "rm -rf *.vsix node_modules/.cache"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0",
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0",
+    "jest": "^29.6.0"
+  },
+  "dependencies": {},
+  "extensionDependencies": [],
+  "badges": [
+    {
+      "url": "https://img.shields.io/vscode-marketplace/v/apollo-theme.apollo-theme.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=apollo-theme.apollo-theme",
+      "description": "VS Code Marketplace Version"
+    },
+    {
+      "url": "https://img.shields.io/vscode-marketplace/d/apollo-theme.apollo-theme.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=apollo-theme.apollo-theme",
+      "description": "Downloads"
+    },
+    {
+      "url": "https://img.shields.io/github/license/apollo-theme/apollo-vscode-theme.svg",
+      "href": "https://github.com/apollo-theme/apollo-vscode-theme/blob/main/LICENSE",
+      "description": "License"
+    }
+  ],
+  "galleryBanner": {
+    "color": "#172038",
+    "theme": "dark"
+  },
+  "preview": false,
+  "qna": "marketplace",
+  "pricing": "Free",
+  "sponsor": {
+    "url": "https://github.com/sponsors/apollo-theme"
+  },
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "extensionPack": [],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "metadata": {
+    "created": "2024-01-15T10:00:00.000Z",
+    "updated": "2024-01-15T10:00:00.000Z",
+    "colorCount": 48,
+    "languageSupport": [
+      "javascript",
+      "typescript",
+      "html",
+      "css",
+      "scss",
+      "less",
+      "json",
+      "jsonc",
+      "markdown",
+      "python",
+      "php",
+      "vue",
+      "react",
+      "jsx",
+      "tsx"
+    ],
+    "features": [
+      "syntax-highlighting",
+      "semantic-tokens",
+      "workbench-colors",
+      "terminal-colors",
+      "git-decorations",
+      "accessibility-compliant",
+      "dual-themes",
+      "retro-aesthetic"
+    ],
+    "testCoverage": {
+      "contrast": "100%",
+      "validation": "100%",
+      "installation": "100%",
+      "integration": "100%"
+    }
+  }
+}

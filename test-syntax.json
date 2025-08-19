@@ -1,0 +1,161 @@
+{
+  "name": "Apollo Theme Test Data",
+  "version": "1.0.0",
+  "description": "JSON file to test syntax highlighting for various data types",
+  "author": {
+    "name": "Apollo Developer",
+    "email": "developer@apollo-theme.com",
+    "url": "https://apollo-theme.com"
+  },
+  "keywords": [
+    "theme",
+    "vscode",
+    "apollo",
+    "syntax-highlighting",
+    "color-scheme"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apollo/vscode-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apollo/vscode-theme/issues"
+  },
+  "homepage": "https://github.com/apollo/vscode-theme#readme",
+  "engines": {
+    "vscode": "^1.60.0",
+    "node": ">=14.0.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Apollo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/apollo-dark-color-theme.json"
+      },
+      {
+        "label": "Apollo Light",
+        "uiTheme": "vs",
+        "path": "./themes/apollo-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "jest",
+    "lint": "eslint src --ext ts",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/vscode": "^1.60.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": "^8.2.0",
+    "jest": "^27.3.1",
+    "typescript": "^4.4.4",
+    "vsce": "^2.5.1"
+  },
+  "dependencies": {},
+  "config": {
+    "theme": {
+      "darkMode": true,
+      "accentColor": "#73bed3",
+      "fontSize": 14,
+      "fontFamily": "Fira Code",
+      "lineHeight": 1.5,
+      "tabSize": 2,
+      "insertSpaces": true,
+      "wordWrap": "on"
+    },
+    "colors": {
+      "primary": "#4f8fba",
+      "secondary": "#a8ca58",
+      "accent": "#73bed3",
+      "warning": "#de9e41",
+      "error": "#cf573c",
+      "success": "#75a743",
+      "info": "#4f8fba"
+    },
+    "palette": {
+      "blues": ["#172038", "#253a5e", "#3c5e8b", "#4f8fba", "#73bed3", "#a4dddb"],
+      "greens": ["#19332d", "#25562e", "#468232", "#75a743", "#a8ca58", "#d0da91"],
+      "browns": ["#4d2b32", "#7a4841", "#ad7757", "#c09473", "#d7b594", "#e7d5b3"],
+      "grays": ["#090a14", "#10141f", "#151d28", "#202e37", "#394a50", "#577277"]
+    }
+  },
+  "metadata": {
+    "created": "2024-01-15T10:30:00.000Z",
+    "updated": "2024-01-20T14:45:30.000Z",
+    "version": 1,
+    "isPublic": true,
+    "tags": null,
+    "downloads": 1250,
+    "rating": 4.8,
+    "reviews": [
+      {
+        "user": "developer1",
+        "rating": 5,
+        "comment": "Excellent theme with great color choices!",
+        "date": "2024-01-18T09:15:00.000Z"
+      },
+      {
+        "user": "designer2",
+        "rating": 4,
+        "comment": "Love the retro aesthetic, very easy on the eyes.",
+        "date": "2024-01-19T16:22:00.000Z"
+      }
+    ]
+  },
+  "features": {
+    "syntaxHighlighting": true,
+    "semanticTokens": true,
+    "workbenchColors": true,
+    "terminalColors": true,
+    "debugColors": true,
+    "gitColors": true,
+    "bracketMatching": true,
+    "errorHighlighting": true
+  },
+  "supportedLanguages": [
+    "javascript",
+    "typescript",
+    "html",
+    "css",
+    "json",
+    "markdown",
+    "python",
+    "java",
+    "c",
+    "cpp",
+    "csharp",
+    "php",
+    "ruby",
+    "go",
+    "rust",
+    "yaml",
+    "xml",
+    "sql"
+  ],
+  "numbers": {
+    "integer": 42,
+    "float": 3.14159,
+    "negative": -123,
+    "exponential": 1.23e-4,
+    "hex": "0xFF",
+    "binary": "0b1010",
+    "octal": "0o777"
+  },
+  "booleans": {
+    "isEnabled": true,
+    "isDisabled": false,
+    "nullValue": null
+  }
+}

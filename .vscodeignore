@@ -1,0 +1,59 @@
+# Development and test files
+test-*.js
+test-*.ts
+test-*.json
+run-*.js
+**/test-*
+**/*test*
+**/*.test.*
+
+# Build and development artifacts
+node_modules/
+.vscode/
+.git/
+.gitignore
+*.log
+*.tmp
+
+# Documentation and development files
+TESTING.md
+PERFORMANCE_OPTIMIZATION_SUMMARY.md
+SEMANTIC_TOKENS.md
+comprehensive-test-report.json
+cross-platform-compatibility-report.json
+test-config.json
+test-installation-activation-report.json
+test-manual-installation-report.json
+test-performance-optimization-report.json
+test-report.json
+test-vscode-integration-report.json
+theme-optimization-report.json
+vscode-version-compatibility-report.json
+
+# Development scripts and utilities
+extension.js
+optimize-theme-structure.js
+src/test-colors.js
+
+# Asset development files
+assets/create-previews.js
+assets/samples/
+assets/SCREENSHOTS.md
+assets/README.md
+
+# Backup files
+**/*.backup
+**/*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp

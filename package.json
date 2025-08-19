@@ -1,0 +1,72 @@
+{
+  "name": "apollo-theme",
+  "displayName": "Apollo Theme",
+  "description": "A retro pixel art color theme for VS Code using the Apollo color palette. Features both dark and light variants with carefully selected colors that reduce eye strain while maintaining excellent readability and code distinction.",
+  "version": "1.0.0",
+  "publisher": "lufutu",
+  "author": {
+    "name": "lufutu"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/icon.png",
+  "keywords": [
+    "theme",
+    "color-theme",
+    "apollo",
+    "retro",
+    "pixel-art",
+    "dark",
+    "light",
+    "syntax-highlighting",
+    "workbench",
+    "aesthetic"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Apollo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/apollo-dark-color-theme.json"
+      },
+      {
+        "label": "Apollo Light",
+        "uiTheme": "vs",
+        "path": "./themes/apollo-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node run-tests.js",
+    "test:suite": "node test-suite.js",
+    "test:contrast": "node test-contrast-analysis.js",
+    "test:validation": "node test-semantic-validation.js && node test-light-validation.js",
+    "test:installation": "node test-installation-activation.js",
+    "test:integration": "node test-vscode-integration.js",
+    "test:manual": "node test-manual-installation.js",
+    "test:all": "npm run test",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lufutu/apollo-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/lufutu/apollo-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/lufutu/apollo-vscode-theme#readme",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#172038",
+    "theme": "dark"
+  },
+  "qna": "marketplace"
+}

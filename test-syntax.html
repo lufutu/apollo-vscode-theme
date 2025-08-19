@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Syntax Test</title>
+    <style>
+        /* CSS embedded in HTML */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 10px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        #main-title {
+            color: #333;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .button:hover {
+            background-color: #007bff;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="main-title">Apollo Theme Test</h1>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="content">
+                <p>This is a test paragraph with <strong>bold text</strong> and <em>italic text</em>.</p>
+                <p>Here's a <a href="https://example.com" target="_blank" rel="noopener">link</a> to test link styling.</p>
+                
+                <form action="/submit" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required placeholder="Enter your username">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Apollo Theme. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script>
+        // JavaScript embedded in HTML
+        document.addEventListener('DOMContentLoaded', function() {
+            const button = document.querySelector('.button');
+            const title = document.getElementById('main-title');
+            
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                title.textContent = 'Form Submitted!';
+                title.style.color = '#28a745';
+            });
+        });
+    </script>
+</body>
+</html>
