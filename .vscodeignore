@@ -7,6 +7,10 @@ run-*.js
 **/*test*
 **/*.test.*
 
+# Setup and development guides
+setup-github.md
+MARKETPLACE_SUBMISSION.md
+
 # Build and development artifacts
 node_modules/
 .vscode/
