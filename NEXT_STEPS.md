@@ -5,8 +5,10 @@
 1. **Updated package.json** with your GitHub account (lufutu)
 2. **Initialized Git repository** with all files
 3. **Created LICENSE file** (MIT License)
-4. **Generated final package**: `apollo-theme-1.0.0.vsix` (34.15 KB)
-5. **Prepared comprehensive guides** for GitHub and Marketplace submission
+4. **Updated all GitHub URLs** to point to your repository
+5. **Converted SVG images to PNG** for marketplace compatibility
+6. **Generated final package**: `apollo-theme-1.0.0.vsix` (451.67 KB)
+7. **Prepared comprehensive guides** for GitHub and Marketplace submission
 
 ## 🔄 Manual Steps Required
 
@@ -43,7 +45,7 @@ git push -u origin main
 ## 📦 Package Ready
 
 - **File**: `apollo-theme-1.0.0.vsix`
-- **Size**: 34.15 KB
+- **Size**: 451.67 KB
 - **Publisher**: lufutu
 - **Repository**: https://github.com/lufutu/apollo-vscode-theme
 - **License**: MIT
