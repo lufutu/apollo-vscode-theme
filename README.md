@@ -2,7 +2,7 @@
 
 A retro pixel art color theme that brings the nostalgic Apollo color palette to your VS Code editor. Experience a visually appealing coding environment with carefully selected colors that reduce eye strain while maintaining excellent readability and code distinction.
 
-![Apollo Theme Preview](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-dark.svg)
+![Apollo Theme Preview](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-dark.png)
 
 ## Features
 
@@ -48,12 +48,12 @@ code --install-extension apollo-theme-1.0.0.vsix
 ### Apollo Dark
 Perfect for low-light environments and extended coding sessions. Features dark backgrounds with bright, vibrant syntax highlighting.
 
-![Apollo Dark Theme](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-dark.svg)
+![Apollo Dark Theme](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-dark.png)
 
 ### Apollo Light  
 Ideal for well-lit environments and daytime coding. Uses light backgrounds with carefully adjusted contrast for optimal readability.
 
-![Apollo Light Theme](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-light.svg)
+![Apollo Light Theme](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-light.png)
 
 ## Color Palette
 
@@ -127,16 +127,16 @@ You can customize the theme by adding overrides to your VS Code settings:
 ## Screenshots
 
 ### JavaScript/TypeScript
-![JavaScript Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-js.svg)
+![JavaScript Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-js.png)
 
 ### HTML/CSS
-![HTML/CSS Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-html.svg)
+![HTML/CSS Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-html.png)
 
 ### JSON
-![JSON Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-json.svg)
+![JSON Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-json.png)
 
 ### Markdown
-![Markdown Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-md.svg)
+![Markdown Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-md.png)
 
 ## Contributing
 
