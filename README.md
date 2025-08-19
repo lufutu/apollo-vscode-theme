@@ -1,4 +1,4 @@
-# Apollo Theme for VS Code
+# ![Apollo Theme](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/icon.png)Apollo Theme for VS Code
 
 A retro pixel art color theme that brings the nostalgic Apollo color palette to your VS Code editor. Experience a visually appealing coding environment with carefully selected colors that reduce eye strain while maintaining excellent readability and code distinction.
 
@@ -46,11 +46,13 @@ code --install-extension apollo-theme-1.0.0.vsix
 ## Theme Variants
 
 ### Apollo Dark
+
 Perfect for low-light environments and extended coding sessions. Features dark backgrounds with bright, vibrant syntax highlighting.
 
 ![Apollo Dark Theme](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-dark.png)
 
-### Apollo Light  
+### Apollo Light
+
 Ideal for well-lit environments and daytime coding. Uses light backgrounds with carefully adjusted contrast for optimal readability.
 
 ![Apollo Light Theme](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/preview-light.png)
@@ -60,8 +62,9 @@ Ideal for well-lit environments and daytime coding. Uses light backgrounds with 
 The Apollo theme uses a carefully curated 48-color palette organized into thematic groups:
 
 ### Primary Colors
+
 - **Blues/Teals**: `#172038` → `#a4dddb` (6 shades)
-- **Greens**: `#19332d` → `#d0da91` (6 shades)  
+- **Greens**: `#19332d` → `#d0da91` (6 shades)
 - **Browns/Oranges**: `#4d2b32` → `#e7d5b3` (6 shades)
 - **Warm Tones**: `#341c27` → `#e8c170` (6 shades)
 - **Purples/Magentas**: `#241527` → `#da863e` (6 shades)
@@ -70,16 +73,16 @@ The Apollo theme uses a carefully curated 48-color palette organized into themat
 
 ### Syntax Highlighting Colors
 
-| Element | Dark Theme | Light Theme |
-|---------|------------|-------------|
-| Keywords | `#4f8fba` | `#3c5e8b` |
-| Strings | `#a8ca58` | `#468232` |
-| Comments | `#577277` | `#394a50` |
-| Variables | `#a4dddb` | `#253a5e` |
-| Functions | `#e8c170` | `#884b2b` |
-| Classes | `#da863e` | `#752438` |
-| Numbers | `#c65197` | `#7a367b` |
-| Operators | `#a8b5b2` | `#202e37` |
+| Element   | Dark Theme | Light Theme |
+| --------- | ---------- | ----------- |
+| Keywords  | `#4f8fba`  | `#3c5e8b`   |
+| Strings   | `#a8ca58`  | `#468232`   |
+| Comments  | `#577277`  | `#394a50`   |
+| Variables | `#a4dddb`  | `#253a5e`   |
+| Functions | `#e8c170`  | `#884b2b`   |
+| Classes   | `#da863e`  | `#752438`   |
+| Numbers   | `#c65197`  | `#7a367b`   |
+| Operators | `#a8b5b2`  | `#202e37`   |
 
 ## Language Support
 
@@ -127,15 +130,19 @@ You can customize the theme by adding overrides to your VS Code settings:
 ## Screenshots
 
 ### JavaScript/TypeScript
+
 ![JavaScript Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-js.png)
 
 ### HTML/CSS
+
 ![HTML/CSS Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-html.png)
 
 ### JSON
+
 ![JSON Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-json.png)
 
 ### Markdown
+
 ![Markdown Example](https://raw.githubusercontent.com/lufutu/apollo-vscode-theme/main/assets/screenshot-md.png)
 
 ## Contributing
@@ -191,6 +198,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 **Enjoy coding with the Apollo theme!** ✨
 
 If you like this theme, please consider:
+
 - ⭐ Starring the repository
 - 📝 Leaving a review on the VS Code Marketplace
 - 🐛 Reporting issues or suggesting improvements
